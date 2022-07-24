@@ -1,0 +1,24 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.messagePage{
+    margin-top: 8vh;
+    height: 100vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    border: 1px solid lightgrey;
+}
+.messagePage-followers{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    border-right: 1px solid lightgrey;
+}

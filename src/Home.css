@@ -1,0 +1,16 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5000px;
+    width: 100%;
+    overflow-y: hidden;
+}
+.cards{
+    padding-top: 5vh;
+    height:10500px;
+    
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,110 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+
+}
+.dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.dashboard-profile-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30vw;
+    
+}
+.dashboard-profile-image img{
+    height: 250px;
+    width: 250px;
+    border: none;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.dashboard-profile-image form{
+    height: 20vh;
+    width: 20vw;
+    border: none;
+    background-color: white;
+}
+.dashboard-profile-image form input{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-profile-image form #input-submit{
+    color: white;
+    width: 8vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #0C71C3;
+}
+.dashboard-user-details{
+    border-radius: 0.5vw;
+    padding: 2vh 2vw;
+    height: 50%;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 2px solid lightgray;
+}
+.username{
+    padding: 1vh 1vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.username h1{
+    font-size: 1.5rem;
+}
+.username button{
+    background-color: white;
+    width: 6vw;
+    height: 5vh;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 0.3rem;
+}
+.username button a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.user-icons{
+    padding: 1vh 3vw;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.user-bio{
+    width: 30vw;
+    height: 20vh;
+    background-color: white;
+}
+.user-bio p{
+    padding: 1vh 1vw;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 30vw;
+    height: 20vh;
+    background-color: white;
+}

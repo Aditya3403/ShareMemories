@@ -1,0 +1,12 @@
+.comment-block{
+    padding: 1vh 2vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+}
+.comment-block span{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
